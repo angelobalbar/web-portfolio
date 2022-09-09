@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	font-family: 'Bungee Inline', cursive;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+	font-family: 'Vollkorn SC', serif;
+	background-color: palevioletred;
+	opacity: 85%;
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+
+img {
+	height: 50%;
+	width: 50%;
+	position: center;
+}
+
+
+p {
+	font-size: 18px;
+	justify-content: stretch;
+	text-align: center;
+}
+
+h3 {
+	text-decoration-line: underline;
+	text-shadow: 2px 2px 2px orangered
+}
+
+h5 {
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+
+.carousel-caption {
+  color: black;
+  text-align: center;
+  vertical-align: text-bottom;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#contact {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.8;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-skype {
+  background: mediumblue;
+  color: white;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0%;
+	margin-top: auto;
+}
+
+.maprouter {
+	min-width:820px;
+	display: none;
+	width: auto;
+}
